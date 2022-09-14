@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PatientRecognition</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_admin">Verwaltung</string>
+    <string name="title_patient">Patient</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="patient_vorname">Patient Vorname:</string>
+    <string name="vornahme">Vornahme</string>
+    <string name="nachname">Nachname</string>
+    <string name="gender">Gender:</string>
+    <string name="description">Description:</string>
+    <string name="userid">UserID:</string>
+    <string name="sichern">Sichern</string>
+    <string name="notiz_titel">Notiz Titel</string>
+    <string name="title">Title:</string>
+    <string name="patient">Patient:</string>
+    <string name="raum">Raum:</string>
+    <string name="weitere_informationen">Weitere Informationen:</string>
+    <string name="optionale_appstart">Optionale Appstart:</string>
+    <string name="user_firstname">User FirstName</string>
+    <string name="user_lasttname">User LasttName</string>
+    <string name="titel">Titel</string>
+    <string name="user">User</string>
+    <string name="ausloggen">Ausloggen</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/createNewPatientNote">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/fragment_add_noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notiz_titel"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/patient_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/raum"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/patient_locations_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weitere_informationen"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/fragment_patient_note"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:inputType="textMultiLine"
+            android:hint="z.B Hinweise zu Medikamenteinnahme, Messungen oder Eingabe von Messwerte in eine Bestimmte App "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/optionale_appstart"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/extra_actions_option1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_note_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/sichern"
+        android:textSize="25sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
