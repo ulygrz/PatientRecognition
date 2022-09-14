@@ -55,10 +55,10 @@ abd uninstall [option] PACKAGE_NAME
 ```
 
 
-# **Apps Features** 
-- Patients information management.
-- Notes management.
-- Patient face recognition.
+# **App Features** 
+- Patients information management
+- Notes management
+- Patient face recognition
 - *In order to use the face recognition capabilities of the robot, the information of the patients must be stored in temi center with at least one photo of the patient. For more information follow the [Temi Center User Manual](https://github.com/temistore/usermanual/blob/master/Temi_Center_User_Guide.pdf)* 
 
 # The Patientrecognition App
